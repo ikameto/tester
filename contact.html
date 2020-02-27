@@ -1,0 +1,374 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" href="./imgs/samurai.jpg" />
+    <link rel="stylesheet" href="./style/reset.css" />
+    <link rel="stylesheet" href="./style/main.css" />
+    <title>sensive</title>
+  </head>
+  <body>
+    <!-- start little container -->
+    <!--  -->
+    <div class="little-container">
+      <!-- start header -->
+      <!--  -->
+      <header class="header">
+        <div class="header__wrapper">
+          <div class="header__column">
+            <a class="header__link-logo" href="index.html">
+              <img
+                src="./imgs/header/logo.png"
+                alt="sansive"
+                class="header__logo"
+              />
+            </a>
+          </div>
+
+          <div class="header__column">
+            <ul class="header__menu-nav">
+              <li class="header__menu-item">
+                <a class="header__menu-link " href="index.html">
+                  Home
+                </a>
+              </li>
+
+              <li class="header__menu-item">
+                <a class="header__menu-link " href="archive.html">
+                  Archive
+                </a>
+              </li>
+
+              <li class="header__menu-item">
+                <a
+                  class="header__menu-link  header__menu-link--active"
+                  href="contact.html"
+                >
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="header__column header__column--visibility">
+            <a
+              class="header__link-icon"
+              href="https://www.facebook.com/"
+              target="_blank"
+            >
+              <div class="header__icon header__icon--facebook"></div>
+            </a>
+
+            <a
+              class="header__link-icon"
+              href="https://twitter.com/"
+              target="_blank"
+            >
+              <div class="header__icon header__icon--twitter"></div>
+            </a>
+
+            <a
+              class="header__link-icon"
+              href="https://www.instagram.com/"
+              target="_blank"
+            >
+              <div class="header__icon header__icon--insta"></div>
+            </a>
+
+            <a
+              class="header__link-icon"
+              href="https://www.linkedin.com/"
+              target="_blank"
+            >
+              <div
+                class="header__icon header__icon--linkedin header__icon--spacing"
+              ></div>
+            </a>
+          </div>
+        </div>
+      </header>
+
+      <!-- start banner -->
+      <!--  -->
+      <div class="banner">
+        <img
+          src="./imgs/banner/main-banner.png"
+          alt="banner photo"
+          class="banner__photo"
+        />
+
+        <div class="banner__content">
+          <h3 class="banner__head">
+            - Contact Us -
+          </h3>
+        </div>
+      </div>
+
+      <section class="block__section">
+        <iframe
+          class="section__map"
+          src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d5955.451509808503!2d44.76507117486808!3d41.72643632422097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x404472df57646d79%3A0x74aa21c7ca581ac3!2s28%20Archil%20Tsagareli%20St%2C%20T&#39;bilisi%2C%20Georgia!3m2!1d41.7235091!2d44.7671517!4m5!1s0x4044733bf241db0b%3A0x447bcd3814bf4903!2sFire%20Wok%20Saburtalo%2C%2016a%20Zhiuli%20Shartava%20St%2C%20Tbilisi%200160%2C%20Georgia!3m2!1d41.726692799999995!2d44.7735291!5e0!3m2!1sen!2sge!4v1582475540845!5m2!1sen!2sge"
+          width="600"
+          height="450"
+          frameborder="0"
+          style="border:0;"
+          allowfullscreen=""
+        ></iframe>
+      </section>
+
+      <div class="contact">
+        <div class="contact__box">
+          <div class="contact__wrap">
+            <img
+              src="./imgs/contact/home.svg"
+              alt="home"
+              class="contact__icon"
+            />
+
+            <div class="contact__media">
+              <h3 class="contact__header">
+                Tbilisi , Georgia
+              </h3>
+
+              <p class="contact__text">
+                Rustaveli Avenue 34
+              </p>
+            </div>
+          </div>
+
+          <div class="contact__wrap">
+            <img
+              src="./imgs/contact/headphone-alt.svg"
+              alt="Headphone"
+              class="contact__icon"
+            />
+
+            <div class="contact__media">
+              <h3 class="contact__header">
+                574 13 07 37
+              </h3>
+
+              <p class="contact__text">
+                Mon to Fri 9am to 6pm
+              </p>
+            </div>
+          </div>
+
+          <div class="contact__wrap">
+            <img
+              src="./imgs/contact/email.svg"
+              alt="Email"
+              class="contact__icon"
+            />
+
+            <div class="contact__media">
+              <h3 class="contact__header">
+                Ika.Metonidze@gmail.com
+              </h3>
+
+              <p class="contact__text">
+                Send me your query anytime!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="contact__box">
+          <input
+            class="contact__form"
+            name="name"
+            id="name"
+            type="text"
+            placeholder="Enter your name"
+          />
+
+          <input
+            class="contact__form"
+            name="email"
+            id="email"
+            type="email"
+            placeholder="Enter email address"
+          />
+
+          <input
+            class="contact__form"
+            name="subject"
+            id="subject"
+            type="text"
+            placeholder="Enter Subject"
+          />
+        </div>
+        <div class="contact__box contact__box--size">
+          <textarea
+            class="contact__form contact__form--size"
+            name="message"
+            id="message"
+            cols="30"
+            rows="5"
+            placeholder="Enter Message"
+          ></textarea>
+
+          <input class="contact__enter" type="submit" value="SEND MESSAGE" />
+        </div>
+      </div>
+    </div>
+
+    <!--start footer-->
+    <!--  -->
+
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__wrapper">
+          <div class="footer__box">
+            <h5 class="footer__title">
+              About US
+            </h5>
+
+            <p class="footer__text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore dolore magna aliqua.
+            </p>
+          </div>
+
+          <div class="footer__box">
+            <h5 class="footer__title">
+              Newsletter
+            </h5>
+
+            <span class="footer__span">
+              Stay update with our latest
+            </span>
+
+            <form class="footer__form">
+              <input
+                class="footer__form-email"
+                type="text"
+                name="Email"
+                placeholder="Enter email"
+              />
+
+              <div class="footer__form-position">
+                <input class="footer__form-submit" type="submit" value="" />
+
+                <img
+                  src="./imgs/footer/arrow-right.svg"
+                  alt="arrow"
+                  class="footer__arrow"
+                />
+              </div>
+            </form>
+          </div>
+
+          <div class="footer__box">
+            <h5 class="footer__title">
+              Instagram Feed
+            </h5>
+
+            <div class="footer__wrap-img">
+              <img
+                src="./imgs/footer/insta1.jpg"
+                alt="sea"
+                class="footer__photo"
+              />
+
+              <img
+                src="./imgs/footer/insta2.jpg"
+                alt="surfing"
+                class="footer__photo"
+              />
+
+              <img
+                src="./imgs/footer/insta3.jpg"
+                alt="boy in nature"
+                class="footer__photo"
+              />
+
+              <img
+                src="./imgs/footer/insta4.jpg"
+                alt="girl"
+                class="footer__photo"
+              />
+
+              <img
+                src="./imgs/footer/insta5.jpg"
+                alt="home in field"
+                class="footer__photo"
+              />
+
+              <img
+                src="./imgs/footer/insta6.jpg"
+                alt="boy and girl"
+                class="footer__photo"
+              />
+
+              <img
+                src="./imgs/footer/insta7.jpg"
+                alt="boy and girl"
+                class="footer__photo"
+              />
+
+              <img
+                src="./imgs/footer/insta8.jpg"
+                alt="man with bag"
+                class="footer__photo"
+              />
+            </div>
+          </div>
+
+          <div class="footer__box">
+            <h5 class="footer__title">
+              Follow Us
+            </h5>
+
+            <span class="footer__span">
+              Let us be social
+            </span>
+
+            <div class="footer__wrap-icons">
+              <a
+                href="https://www.facebook.com/"
+                class="footer__link-icon"
+                target="_blank"
+              >
+                <div class="footer__icon footer__icon--facebook"></div>
+              </a>
+
+              <a
+                href="https://twitter.com/"
+                class="footer__link-icon"
+                target="_blank"
+              >
+                <div class="footer__icon footer__icon--twitter"></div>
+              </a>
+
+              <a
+                href="https://www.instagram.com/"
+                class="footer__link-icon"
+                target="_blank"
+              >
+                <div class="footer__icon footer__icon--insta"></div>
+              </a>
+
+              <a
+                href="https://www.linkedin.com/"
+                class="footer__link-icon"
+                target="_blank"
+              >
+                <div class="footer__icon footer__icon--linkedin"></div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <p class="footer__done">
+          Copyright © 2020 All rights reserved | This page is made with
+          <img src="./imgs/footer/heart.svg" alt="heart" />
+          by :
+          <span class="footer__done-span">
+            Meto
+          </span>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
